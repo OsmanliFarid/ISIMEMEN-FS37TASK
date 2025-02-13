@@ -48,7 +48,7 @@ html,body{
     height: 40px;
     display: none;
 }
-.main-mavbar-text{
+.main-navbar-text{
     position: absolute;
     color: #AEE8FB;
     font-weight: 400;
@@ -81,7 +81,7 @@ html,body{
 }
 .main-desc2{
     background-color: #F3E9E2;
-    height: 392px;
+    
     margin-top: 50px;
 }
 .main-desc-title2{
@@ -89,10 +89,113 @@ html,body{
     font-size: 80px;
     line-height: 88px;
     max-width: 1079px;
-    padding-top: 50px;
+    padding: 50px 0px 50px 0px;
 }
-
-
+.main-carts-boxs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.main-cart-text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 1.28px;
+    margin: 50px 0px;
+    text-transform: uppercase;
+}
+.main-cart-box{
+    width: 360px;
+    height: 626px;    
+    background-color: #AEE8FB;
+    text-align: center;
+}
+.main-cart-box img{
+    border-radius: 10px;
+    display: inline-block;
+    padding-top: 20px;
+}
+.main-cart-text2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 1.28px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+.main-cart-desc{
+    padding: 0px 0px 60px 0px;
+}
+.main-cart-btn{
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 15px 35px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.main-cart-box2{
+    width: 360px;
+    height: 626px;    
+    background-color: #F3E9E2;
+    text-align: center;
+}
+.main-cart-box2 img{
+    border-radius: 10px;
+    display: inline-block;
+    padding-top: 20px;
+}
+.main-cart-text3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 1.28px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+.main-cart-desc3{
+    padding: 0px 0px 60px 0px;
+}
+.main-cart-btn3{
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 15px 35px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.main-cart-box3{
+    width: 360px;
+    height: 626px;    
+    background-color: #AEE8FB;
+    text-align: center;
+}
+.main-cart-box3 img{
+    border-radius: 10px;
+    display: inline-block;
+    padding-top: 20px;
+}
+.main-cart-text4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 1.28px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+.main-cart-desc4{
+    padding: 0px 0px 75px 0px;
+}
+.main-cart-btn4{
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 15px 35px;
+    color: #000000;
+    text-transform: uppercase;
+}
 
 
 
