@@ -109,6 +109,7 @@ html,body{
     background-color: #AEE8FB;
     text-align: center;
 }
+
 .main-cart-box img{
     border-radius: 10px;
     display: inline-block;
@@ -195,6 +196,26 @@ html,body{
     padding: 15px 35px;
     color: #000000;
     text-transform: uppercase;
+}
+.main-desc-carts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 100px;
+}
+.main-desc-cart-box{
+    width: 570px;
+    height: 570px;
+    background-color: #F3E9E2;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.main-desc-cart-box-title{
+    font-size: 44px;
+    line-height: 52.8px;
+    color: #000;
+    max-width: 371px;
+    
 }
 
 
