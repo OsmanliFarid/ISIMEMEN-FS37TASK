@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
 }
 html,body{
     font-family: Roboto;
@@ -11,3 +13,87 @@ html,body{
     font-family: Roboto;
     src: url(../fonts/Roboto-Regular.ttf);
 }
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    
+}
+.navbar a{
+    color: #000;
+    font-weight: 400;
+}
+.Navbar-logo{
+    font-size: 34px;
+}
+.links ul {
+    display: flex;
+    gap: 20px;
+}
+.main-navbar-background{
+    background: url(../images/navbar-logo.png)no-repeat center;
+    background-size: cover;
+    height: 86vh;
+    position: relative;
+}
+.bars {
+    max-width: 30px;
+    height: 40px;
+    display: none;
+}
+.main-mavbar-text{
+    position: absolute;
+    color: #AEE8FB;
+    font-weight: 400;
+    font-size: 126px;
+    line-height: 132.6px;
+    max-width: 842px;
+    bottom: 50px;
+}
+.main-desc-title{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 52.8px;
+    text-align: center;
+    max-width: 895px;
+    margin-top: 50px;
+    margin-inline: auto;
+}
+.disco-btn{
+    padding: 15px 40px;
+    border: 1px solid;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.main-desc-box{
+    text-align: center;
+}
+.main-desc2{
+    background-color: #F3E9E2;
+    height: 392px;
+    margin-top: 50px;
+}
+.main-desc-title2{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 88px;
+    max-width: 1079px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
