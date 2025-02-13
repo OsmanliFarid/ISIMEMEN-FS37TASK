@@ -8,6 +8,12 @@
     .container{
         max-width: 720px;
     }
+    .main-carts-boxs{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
     
     
 }
@@ -21,8 +27,12 @@
     .links ul{
         display: none;
     }
-    
-    
+    .main-carts-boxs{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 20px;
+    }
+
 }
 
 @media (max-width:576px) {
@@ -35,5 +45,21 @@
     .links ul{
         display: none;
     }
+    .main-navbar-text{
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .main-desc-title{
+        font-size: 30px;
+    }
+    .main-desc-title2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main-carts-boxs{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    
     
 }
