@@ -278,6 +278,122 @@ html,body{
     line-height: 17.58px;
     margin-top: 30px;
 }
+.main-levelup-boxs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.main-levelup-box{
+    width: 360px;
+    height: 318px;
+    background-color: #AEE8FB;
+    border-radius: 10px;
+}
+.main-levelup-box2{
+    width: 360px;
+    height: 318px;
+    background-color: #F3E9E2;
+    border-radius: 10px;
+}
+.main-levelup-box3{
+    width: 360px;
+    height: 318px;
+    background-color: #FF3B41;
+    border-radius: 10px;
+}
+.main-levelup-text{
+     margin: 100px 0px 50px 0px;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 18.75px;
+     letter-spacing: 1.28px;
+}
+.main-levelup-text2{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 63.8px;
+    padding: 20px 0px 0px 20px;
+}
+.main-levelup-desc-text{
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 19.52px;
+    width: 298px;
+    padding: 50px 0px 15px 0px;
+    margin: auto;
+}
+.main-levelup-btn{
+    padding: 15px 35px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    
+}
+.main-levelup-box-btn{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    padding-top: 15px;
+}
+.main-levelup-text3{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 63.8px;
+    padding: 20px 0px 0px 20px;
+    color: #FF3B41;
+}
+.main-levelup-desc-text2{
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 19.52px;
+    width: 298px;
+    padding: 50px 0px 15px 0px;
+    margin: auto;
+    color: #FF3B41;
+}
+.main-levelup-btn2{
+    padding: 15px 35px;
+    border: 1px solid #FF3B41;
+    color: #FF3B41;
+    border-radius: 10px;
+    
+}
+.main-levelup-box-btn2{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    padding-top: 15px;
+}
+.main-levelup-text4{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 63.8px;
+    padding: 5px 0px 0px 20px;
+    color: #fff;
+}
+.main-levelup-desc-text3{
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 19.52px;
+    width: 298px;
+    padding: 20px 0px 15px 0px;
+    margin: auto;
+    color: #fff;
+}
+.main-levelup-btn3{
+    padding: 15px 35px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+.main-levelup-box-btn3{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    padding-top: 15px;
+}
+
 
 
 
