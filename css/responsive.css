@@ -19,7 +19,13 @@
         row-gap: 20px;
         justify-items:  center;
     }
-    
+    .main-levelup-text{
+        text-align: center;
+    }
+    .main-levelup-boxs{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
     
 }
 @media (max-width:768px) {
@@ -53,6 +59,13 @@
     }
     .main-analaytics-box3{
         border: none;
+    }
+    .main-levelup-text{
+        text-align: center;
+    }
+    .main-levelup-boxs{
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 
 }
@@ -106,6 +119,12 @@
     .main-analaytics-box3{
         border: none;
     }
-    
+    .main-levelup-text{
+        text-align: center;
+    }
+    .main-levelup-boxs{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
     
 }
